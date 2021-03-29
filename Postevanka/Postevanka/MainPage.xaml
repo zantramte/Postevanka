@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Postevanka.MainPage">
+
+    <StackLayout  BackgroundColor="#EDA4FF">
+        <Button BackgroundColor="#680580" Text="3  •  3" FontSize="70" HeightRequest="140" x:Name="G" FontAttributes="Bold" TextColor="White"></Button>
+        <Image Source="posastko.png" WidthRequest="160" HeightRequest="160"></Image>
+        <Button Text="➜" FontAttributes="Bold" TextColor="White" Margin="20, -70, 20, 5" BackgroundColor="#4B1758" HeightRequest="90" WidthRequest="170"  FontSize="47" Clicked="Button_Clicked_1"></Button>
+        <Grid RowSpacing="6" ColumnSpacing="6" BackgroundColor="#EDA4FF" WidthRequest="700" HeightRequest="900" x:Name="Panel">
+            <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" HeightRequest="10" WidthRequest="10" FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="0" Grid.Column="1" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#C525ED"  FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="0" Grid.Column="2" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="1" Grid.Column="0" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#C525ED"  FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="1" Grid.Column="1" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187"  FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="1" Grid.Column="2" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#C525ED"  FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="2" Grid.Column="0" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="2" Grid.Column="1" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#C525ED" FontSize="30" Clicked="Button_Clicked"></Button>
+            <Button Grid.Row="2" Grid.Column="2" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" FontSize="30" Clicked="Button_Clicked"></Button>
+        </Grid>
+    </StackLayout>
+</ContentPage>
