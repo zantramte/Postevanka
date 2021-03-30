@@ -77,6 +77,7 @@ namespace Postevanka
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
+            Slika.Source = "s2.png";
             var stream = GetStreamFromFile("cartoon.mp3");
             Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
             Igralnik.Load(stream);

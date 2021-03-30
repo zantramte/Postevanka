@@ -38,9 +38,9 @@ namespace Postevanka
 
         public static void Polni()
         {
-            Zmnozek = Prvo * Drugo;
             Stevilke_kopija.Clear();
             Stevilke.Clear();
+            Zmnozek = Prvo * Drugo;
             Stevilke.Add(Zmnozek);
 
             for (int indeks = 0; indeks < 101; indeks++)

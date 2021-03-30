@@ -5,9 +5,9 @@
 
     <StackLayout  BackgroundColor="#EDA4FF">
         <Button BackgroundColor="#680580" Text="3  •  3" FontSize="70" HeightRequest="140" x:Name="G" FontAttributes="Bold" TextColor="White"></Button>
-        <Image Source="posastko.png" WidthRequest="160" HeightRequest="160"></Image>
+        <Image Source="posastko.png" WidthRequest="160" HeightRequest="160" x:Name="Slika" ></Image>
         <Button Text="➜" FontAttributes="Bold" TextColor="White" Margin="20, -70, 20, 5" BackgroundColor="#4B1758" HeightRequest="90" WidthRequest="170"  FontSize="47" Clicked="Button_Clicked_1"></Button>
-        <Grid RowSpacing="6" ColumnSpacing="6" BackgroundColor="#EDA4FF" WidthRequest="700" HeightRequest="900" x:Name="Panel">
+        <Grid RowSpacing="6" ColumnSpacing="6"  BackgroundColor="#EDA4FF" WidthRequest="700" HeightRequest="900" x:Name="Panel">
             <Grid.RowDefinitions>
                     <RowDefinition />
                     <RowDefinition />
