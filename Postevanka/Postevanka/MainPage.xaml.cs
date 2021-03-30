@@ -70,14 +70,13 @@ namespace Postevanka
                 Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
                 Igralnik.Load(stream);
                 Igralnik.Play();
-                DisplayAlert("Pošastko sporoča", "NAROBE! Rešitev ni pravilna!", "Nadaljuj");
+                Slika.Source = "p2.png";
                 Uredi();
             }
         }
 
         private void Button_Clicked_1(object sender, EventArgs e)
         {
-            Slika.Source = "s2.png";
             var stream = GetStreamFromFile("cartoon.mp3");
             Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
             Igralnik.Load(stream);
