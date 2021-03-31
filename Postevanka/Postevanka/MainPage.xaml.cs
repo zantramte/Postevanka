@@ -83,5 +83,10 @@ namespace Postevanka
             Igralnik.Play();
             Uredi();
         }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

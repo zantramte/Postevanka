@@ -28,6 +28,6 @@
             <Button Grid.Row="2" Grid.Column="1" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#C525ED" FontSize="30" Clicked="Button_Clicked"></Button>
             <Button Grid.Row="2" Grid.Column="2" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" FontSize="30" Clicked="Button_Clicked"></Button>
         </Grid>
-        <Button Text="Božični način" FontSize="20" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" HeightRequest="80"></Button>
+        <Button Text="Božični način" FontSize="20" Clicked="Button_Clicked_2" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" HeightRequest="80"></Button>
     </StackLayout>
 </ContentPage>
