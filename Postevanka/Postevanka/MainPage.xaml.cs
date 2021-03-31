@@ -87,6 +87,10 @@ namespace Postevanka
         private void Button_Clicked_2(object sender, EventArgs e)
         {
             Posast.Stevec++;
+            var stream = GetStreamFromFile("gu.mp3");
+            Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+            Igralnik.Load(stream);
+            Igralnik.Play();
 
             if (Posast.Stevec % 2 == 0)
             {
