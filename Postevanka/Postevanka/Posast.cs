@@ -6,7 +6,7 @@ namespace Postevanka
 {
     public class Posast
     {
-        public static int Moja_Izbira, Zmnozek, Prvo, Drugo, Cifra;
+        public static int Moja_Izbira, Zmnozek, Prvo, Drugo, Cifra, Stevec = 0;
         public static Random Nakljucno = new Random();
         private static List<int> Stevilke_kopija = new List<int>();
         public static List<int> Stevilke = new List<int>();

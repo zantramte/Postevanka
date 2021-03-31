@@ -86,7 +86,55 @@ namespace Postevanka
 
         private void Button_Clicked_2(object sender, EventArgs e)
         {
+            Posast.Stevec++;
 
+            if (Posast.Stevec % 2 == 0)
+            {
+                Gumbo.Text = "BOŽIČNI NAČIN";
+                Slika.Source = "kepa.png";
+                G.BackgroundColor = Color.FromHex("#680580");
+                GGG.BackgroundColor = Color.FromHex("#4B1758");
+                Gumbo.BackgroundColor = Color.FromHex("#701187");
+                Glavno.BackgroundColor = Color.FromHex("#FF8989");
+                Panel.BackgroundColor = Color.FromHex("#EDA4FF");
+
+                for (int indeks = 0; indeks < Panel.Children.Count; indeks++)
+                {
+                    if (indeks % 2 != 0)
+                    {
+                        Panel.Children[indeks].BackgroundColor = Color.FromHex("#701187");
+                    }
+
+                    else
+                    {
+                        Panel.Children[indeks].BackgroundColor = Color.FromHex("#C525ED");
+                    }
+                }
+            }
+
+            else
+            {
+                Gumbo.Text = "POŠASTKOV NAČIN";
+                Slika.Source = "posastko.png";
+                G.BackgroundColor = Color.FromHex("#9A1B1B");
+                GGG.BackgroundColor = Color.FromHex("#9A1B1B");
+                Gumbo.BackgroundColor = Color.FromHex("#9A1B1B");
+                Glavno.BackgroundColor = Color.FromHex("#FF8989");
+                Panel.BackgroundColor = Color.FromHex("#FF8989");
+
+                for (int indeks = 0; indeks < Panel.Children.Count; indeks++)
+                {
+                    if (indeks % 2 != 0)
+                    {
+                        Panel.Children[indeks].BackgroundColor = Color.FromHex("#BF0000");
+                    }
+
+                    else
+                    {
+                        Panel.Children[indeks].BackgroundColor = Color.FromHex("#F05D5D");
+                    }
+                }
+            }
         }
     }
 }

@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Postevanka.MainPage">
 
-    <StackLayout  BackgroundColor="#EDA4FF">
+    <StackLayout x:Name="Glavno" BackgroundColor="#EDA4FF">
         <Button BackgroundColor="#680580" Text="3  •  3" FontSize="70" HeightRequest="140" x:Name="G" FontAttributes="Bold" TextColor="White"></Button>
         <Image Source="posastko.png" Margin="0, 10" WidthRequest="160" HeightRequest="160" x:Name="Slika" ></Image>
-        <Button Text="➜" FontAttributes="Bold" TextColor="White" Margin="20, -100, 20, 5" BackgroundColor="#4B1758" HeightRequest="90" WidthRequest="140"  FontSize="40" Clicked="Button_Clicked_1"></Button>
+        <Button Text="➜" FontAttributes="Bold" TextColor="White" Margin="20, -100, 20, 5" x:Name="GGG" BackgroundColor="#4B1758" HeightRequest="90" WidthRequest="140"  FontSize="40" Clicked="Button_Clicked_1"></Button>
         <Grid RowSpacing="6" ColumnSpacing="6"  BackgroundColor="#EDA4FF" WidthRequest="700" HeightRequest="2000" x:Name="Panel">
             <Grid.RowDefinitions>
                     <RowDefinition />
@@ -28,6 +28,6 @@
             <Button Grid.Row="2" Grid.Column="1" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#C525ED" FontSize="30" Clicked="Button_Clicked"></Button>
             <Button Grid.Row="2" Grid.Column="2" Text="" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" FontSize="30" Clicked="Button_Clicked"></Button>
         </Grid>
-        <Button Text="Božični način" FontSize="20" Clicked="Button_Clicked_2" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" HeightRequest="80"></Button>
+        <Button Text="Božični način" x:Name="Gumbo" FontSize="20" Clicked="Button_Clicked_2" FontAttributes="Bold" TextColor="White" BackgroundColor="#701187" HeightRequest="80"></Button>
     </StackLayout>
 </ContentPage>
