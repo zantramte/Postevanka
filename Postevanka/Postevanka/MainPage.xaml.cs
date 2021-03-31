@@ -91,11 +91,11 @@ namespace Postevanka
             if (Posast.Stevec % 2 == 0)
             {
                 Gumbo.Text = "BOŽIČNI NAČIN";
-                Slika.Source = "kepa.png";
+                Slika.Source = "p1.png";
                 G.BackgroundColor = Color.FromHex("#680580");
                 GGG.BackgroundColor = Color.FromHex("#4B1758");
                 Gumbo.BackgroundColor = Color.FromHex("#701187");
-                Glavno.BackgroundColor = Color.FromHex("#FF8989");
+                Glavno.BackgroundColor = Color.FromHex("#EDA4FF");
                 Panel.BackgroundColor = Color.FromHex("#EDA4FF");
 
                 for (int indeks = 0; indeks < Panel.Children.Count; indeks++)
@@ -115,7 +115,7 @@ namespace Postevanka
             else
             {
                 Gumbo.Text = "POŠASTKOV NAČIN";
-                Slika.Source = "posastko.png";
+                Slika.Source = "p2.png";
                 G.BackgroundColor = Color.FromHex("#9A1B1B");
                 GGG.BackgroundColor = Color.FromHex("#9A1B1B");
                 Gumbo.BackgroundColor = Color.FromHex("#9A1B1B");
