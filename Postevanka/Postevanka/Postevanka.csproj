@@ -13,12 +13,14 @@
   <ItemGroup>
     <None Remove="cartoon.mp3" />
     <None Remove="Glasba.mp3" />
+    <None Remove="gu.mp3" />
     <None Remove="ja.mp3" />
     <None Remove="ne.mp3" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="cartoon.mp3" />
+    <EmbeddedResource Include="gu.mp3" />
     <EmbeddedResource Include="ja.mp3" />
     <EmbeddedResource Include="Glasba.mp3" />
     <EmbeddedResource Include="ne.mp3" />

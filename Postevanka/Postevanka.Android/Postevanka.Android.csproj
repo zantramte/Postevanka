@@ -137,6 +137,8 @@
     <AndroidResource Include="Resources\drawable\ppp.png" />
     <AndroidResource Include="Resources\drawable\kepa.png" />
     <AndroidResource Include="Resources\drawable\kapa.png" />
+    <AndroidResource Include="Resources\drawable\22.png" />
+    <AndroidResource Include="Resources\drawable\33.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

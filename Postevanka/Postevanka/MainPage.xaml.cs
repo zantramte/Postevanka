@@ -70,7 +70,7 @@ namespace Postevanka
                 Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
                 Igralnik.Load(stream);
                 Igralnik.Play();
-                Slika.Source = "p2.png";
+                DisplayAlert("Pošastko sporoča", "NAROBE! Rešitev ni pravilna!", "Nadaljuj");
                 Uredi();
             }
         }
@@ -87,10 +87,6 @@ namespace Postevanka
         private void Button_Clicked_2(object sender, EventArgs e)
         {
             Posast.Stevec++;
-            var stream = GetStreamFromFile("gu.mp3");
-            Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
-            Igralnik.Load(stream);
-            Igralnik.Play();
 
             if (Posast.Stevec % 2 == 0)
             {
@@ -118,6 +114,10 @@ namespace Postevanka
 
             else
             {
+                var stream = GetStreamFromFile("gu.mp3");
+                Igralnik = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+                Igralnik.Load(stream);
+                Igralnik.Play();
                 Gumbo.Text = "POŠASTKOV NAČIN";
                 Slika.Source = "p2.png";
                 G.BackgroundColor = Color.FromHex("#9A1B1B");
